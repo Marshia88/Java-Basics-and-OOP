@@ -1,0 +1,10 @@
+class Pot extends Point{
+  protected double area= 0.0;
+  public Pot(double rad){
+  super(rad);
+  }
+   double space(){
+  area=4/3*getRadius()* getRadius()*getRadius()*3.1416;
+  return area;
+}
+}

@@ -1,0 +1,10 @@
+class Dot extends Point{
+  protected double area= 0.0;
+  public Dot(double rad){
+  super(rad);
+  }
+  double space(){
+  area= getRadius()*getRadius()*3.1416;
+  return area;
+  }
+}
