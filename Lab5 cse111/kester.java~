@@ -1,0 +1,6 @@
+public class kester{
+  public static void main(String [] args){
+    int y=5;
+    y++;
+    System.out.println(y);}
+}
